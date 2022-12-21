@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    color:rgb(255, 255, 255);
+    background-color: rgb(167, 131, 84);
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+header{
+    padding: 40px 0;
+    background-color: rgb(167, 131, 84);
+}
+
+.header-area, .about-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.logo a{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* about area */
+
+.about-area{
+    padding-top: 150px;
+}
+
+.about-content h1 {
+	font-size: 45px;
+	font-weight: 800;
+    color:rgb(167, 131, 84);
+    letter-spacing: 2px;
+}
+
+.about-content p {
+	font-size: 18px;
+	font-weight: normal;
+    color:rgb(113, 107, 98);
+    margin-top: 20px;
+    width: 90%;
+}
+
+.about-content a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #3C220C;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.about-img img{
+    width: 450px;
+}
+
+.review-section{
+    margin-top: 150px;
+    background-color: beige;
+    padding: 50px 0;
+}
+
+.review-section h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    color:rgb(167, 131, 84);
+}
+
+.review-area{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 60px;
+}
+
+.team img{
+    width: 350px;
+}
+
+.team h4{
+    font-size: 22px;
+    margin-top: 15px;
+    color: #3C220C;
+}
+
+.team p{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #78726d;
+}
+
+footer{
+    background-color: #3C220C;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.contact-area{
+    margin: 100px 150px;
+}
+.contact-area h1{
+    font-size: 35px;
+}
+input, textarea{
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #A78354;
+    font-size: 30px;
+}
+
+button{
+    background-color: #A78354;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+::placeholder{
+    font-size: 20px;
+}
